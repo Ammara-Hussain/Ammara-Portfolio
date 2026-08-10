@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammara Hussain | Software Engineering Portfolio</title>
+    <style>
+        /* Base Reset & Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+            padding: 0;
+        }
+
+        /* Layout Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation Header */
+        header {
+            position: sticky;
+            top: 0;
+            background-color: rgba(13, 17, 23, 0.9);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #30363d;
+            z-index: 100;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+        }
+        .logo {
+            font-weight: 700;
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: #8b949e;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover {
+            color: #58a6ff;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid #21262d;
+        }
+
+        /* Hero / Home Section */
+        .hero {
+            padding: 80px 0 60px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #f0f6fc;
+            margin-bottom: 12px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #8b949e;
+            max-width: 650px;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #1f6feb22;
+            color: #58a6ff;
+            border: 1px solid #1f6feb;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 16px;
+        }
+
+        /* Heading Style */
+        h2 {
+            font-size: 1.8rem;
+            color: #f0f6fc;
+            margin-bottom: 24px;
+        }
+
+        /* Projects Cards */
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        .project-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 24px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .project-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-2px);
+        }
+        .project-card h3 {
+            color: #f0f6fc;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+        .tags {
+            display: flex;
+            gap: 8px;
+            margin: 12px 0;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background-color: #21262d;
+            color: #8b949e;
+            font-size: 0.8rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid #30363d;
+        }
+
+        /* Skills List */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-item {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            padding: 8px 16px;
+            border-radius: 6px;
+            color: #c9d1d9;
+        }
+
+        /* Contact Details */
+        .contact-box {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 24px;
+        }
+        .contact-link {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">AH.dev</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+            <span class="badge">BSc Software Engineering Student</span>
+            <h1>Ammara Hussain</h1>
+            <p>Software Engineering undergraduate specializing in backend architecture, system design, and AI tooling development through the Model Context Protocol (MCP).</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="margin-bottom: 16px;">
+                I am a Software Engineering student focused on building reliable software systems and exploring modern AI integration patterns. My coursework and practical projects cover core computer science fundamentals, including Data Structures & Algorithms, Operating Systems, Database Management Systems, and Software Design & Architecture.
+            </p>
+            <h3 style="color: #f0f6fc; margin: 20px 0 12px;">Core Skills</h3>
+            <div class="skills-list">
+                <span class="skill-item">Python</span>
+                <span class="skill-item">Model Context Protocol (MCP)</span>
+                <span class="skill-item">REST APIs (`httpx`)</span>
+                <span class="skill-item">Software Design & Architecture</span>
+                <span class="skill-item">Data Structures & Algorithms</span>
+                <span class="skill-item">Git & Version Control</span>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+
+                <!-- FL-05 Project -->
+                <div class="project-card">
+                    <h3>Custom Pokémon Model Context Protocol (MCP) Server</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">FastMCP</span>
+                        <span class="tag">PokeAPI</span>
+                        <span class="tag">MCP Inspector</span>
+                    </div>
+                    <p>
+                        Developed a standard-compliant MCP server in Python using `FastMCP` that acts as a middleware bridge between AI clients and external REST APIs. Exposes three dynamic tools (`get_pokemon_info`, `create_tournament_squad`, and `list_popular_pokemon`) to execute real-time data fetching over Standard I/O (`stdio`). Verified and tested through the official Anthropic MCP Inspector runtime interface.
+                    </p>
+                </div>
+
+                <!-- FL-04 Project -->
+                <div class="project-card">
+                    <h3>FL-04 Prompt-Chaining Data Pipeline</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Prompt Engineering</span>
+                        <span class="tag">Workflow Automation</span>
+                    </div>
+                    <p>
+                        Engineered a multi-stage, deterministic data processing pipeline using an orchestrated prompt-chaining workflow. The system coordinates sequential LLM execution steps to process raw inputs, enforce structural formatting, and output validated data reports with strict guardrails.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact & Links</h2>
+            <div class="contact-box">
+                <p style="margin-bottom: 12px;">I am open to collaborations, discussions on software engineering projects, and AI system design.</p>
+                <ul style="list-style: none; line-height: 2;">
+                    <li><strong>GitHub:</strong> <a href="https://github.com/Ammara-Hussain" target="_blank" class="contact-link">github.com</a></li>
+                    <li><strong>Email:</strong> <a href="ammarahussain2024@gmail.com" class="contact-link">Contact via Email</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Ammara Hussain. Built with pure HTML & CSS.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
