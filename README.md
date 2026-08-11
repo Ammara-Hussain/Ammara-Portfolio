@@ -1,6 +1,7 @@
 # Ammara Hussain — Portfolio
 
 A personal portfolio website showcasing selected software engineering projects and my learning journey.
+https://ammara-hussain.github.io/Ammara-Portfolio/
 
 ## About
 
@@ -73,43 +74,43 @@ Ammara-Portfolio/
     ├── weather.html
     ├── eventora.html
     └── inheritance.html
-How the Website Works
+
+## How the Website Works
 
 The portfolio is a static website built with HTML and CSS.
 
-index.html is the homepage.
-about.html contains information about me.
-projects.html lists the featured projects.
-contact.html provides contact information.
-The projects/ folder contains individual project case-study pages.
-The assets/ folder contains project screenshots.
-css/style.css provides the shared styling across the website.
+- `index.html` is the homepage.
+- `about.html` contains information about me.
+- `projects.html` lists the featured projects.
+- `contact.html` provides contact information.
+- The `projects/` folder contains individual project case-study pages.
+- The `assets/` folder contains project screenshots.
+- `css/style.css` provides the shared styling across the website.
 
 Navigation between pages is implemented using relative HTML links.
 
-Deployment
+## Deployment
 
 The portfolio is deployed using GitHub Pages.
 
-Learning
+## Learning
 
 Through this project, I practiced:
 
-Structuring a multi-page website
-Creating reusable CSS
-Managing assets and relative file paths
-Using Git and GitHub
-Deploying a static website
-Using AI as a development partner while understanding the generated code
-Future Improvements
+- Structuring a multi-page website
+- Creating reusable CSS
+- Managing assets and relative file paths
+- Using Git and GitHub
+- Deploying a static website
+- Using AI as a development partner while understanding the generated code
+
+## Future Improvements
 
 This is intentionally a first shipped version rather than a fully polished portfolio.
 
 Future improvements may include:
 
-Improved visual design
-Better project case studies
-Additional projects
-More detailed technical documentation
-Improved accessibility
-Further responsive design improvements
+- Improved visual design
+- Better project case studies
+- Additional projects
+- More detailed technical documentation
