@@ -483,3 +483,48 @@ footer p {
 
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
 }
+
+/* Contact Form */
+
+.contact-content form {
+    max-width: 700px;
+    margin-top: 40px;
+}
+
+.contact-content label {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.contact-content input,
+.contact-content textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-content textarea {
+    resize: vertical;
+}
+
+.contact-content button {
+    margin-top: 24px;
+    padding: 14px 24px;
+    background: #1f2937;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.contact-content button:hover {
+    opacity: 0.9;
+}
